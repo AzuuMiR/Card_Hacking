@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Card Hacking</title>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    </head>
+    <body>
+    <h1>Card Hacking</h1>
+        <h2>Nouvel objectif</h2>
+        <ul>
+            <li><u>Cible</u> : Richard Richard</li>
+            <li><u>Description</u> : Fortune familiale. Jeune homme imbu de sa personne.</li>
+            <li><u>Autre</u> : Actuellement en vacances dans le Pacifique avec femme et chien. Bon moment pour frapper.</li>
+        </ul>
+        
+        <h2>Détail</h2>
+        <ul>
+            <li>Trouver les coordonnées bancaires et les entrer dans le formulaire ci-dessous</li>
+            <li>Commencer les recherches d'identifiants par son compte <a href="https://twitter.com/Double_RichHard">Twitter</a></li>
+        </ul>
+        
+        <form action="end.html">
+            <p>
+                <fieldset>
+                    <legend>Nom du titulaire (Nom Prénom) :</legend>
+                    <input type="text" id="t1" required pattern="[Rr]ichard [Rr]ichard">
+                </fieldset>
+            </p>
+            <p>
+                <fieldset>
+                    <legend>Code (16 chiffres) :</legend>
+                    <input type="text" id="t2" required pattern="4485643281158025">
+                </fieldset>
+            </p>
+            <p>
+                <fieldset>
+                    <legend>Code de sécurité (3 chiffres) :</legend>
+                    <input type="text" id="t3" required pattern="101">
+                </fieldset>
+            </p>
+            <p>
+                <fieldset>
+                    <legend>Date d'expiration (MM/AA) :</legend>
+                    <input type="text" id="t4" required pattern="03/22">
+                </fieldset>
+            </p>
+            <p><button id="success">Vérifier dans la base de données</button></p>
+        </form>
+    </body>
+</html>
